@@ -33,6 +33,7 @@ echo --------------------------------------------------
 echo ? How to use:
 echo 1. Move your .ps1 scripts into the 'ps1_runner' folder on Desktop.
 echo 2. Open PowerShell and run:
+echo    cd "$env:USERPROFILE\OneDrive\Desktop\ps1_runner"
 echo    .\run-safe.ps1 .\your-script.ps1
 echo --------------------------------------------------
 pause
