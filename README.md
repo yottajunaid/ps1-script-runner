@@ -27,3 +27,15 @@ This project allows you to run `.ps1` scripts safely from a trusted folder.
 ```powershell
 cd "$env:USERPROFILE\Desktop\ps1_runner"
 .\run-safe.ps1 .\your-script.ps1
+```
+
+Warning!!!
+```
+make sure the path in which you are pasting your scripts are at:
+C:\Users\your_pc\Desktop\ps1_runner\
+and not
+C:\Users\OneDrive\your_pc\Desktop\ps1_runner\
+because ps1 scripts doesn't trust OneDrive
+```
+
+Happy Hacking >_<
